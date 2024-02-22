@@ -8,6 +8,7 @@
     <title>Karolcia</title>
   </head>
   <body>
+    <div class="desktop-only">
     <h1>KOCHAM KAROLCIĘ</h1>
     <ul class="gallery">
       <li class="thumbnail"><img src="images/1.jpeg" alt="" /></li>
@@ -54,21 +55,22 @@
       <li class="thumbnail"><img src="images/42.jpeg" alt="" /></li>
       <li class="thumbnail"><img src="images/43.jpeg" alt="" /></li>
     </ul>
-    <div class="popup hidden">
-      <button aria-label="Zamknij" class="popup__close">&#10006;</button>
-      <img src="" alt="" class="popup__img" />
-      <button
-        aria-label="Poprzednie zdjęcie"
-        class="popup__arrow popup__arrow--left"
-      >
-        &#8249;
-      </button>
-      <button
-        aria-label="Następne zdjęcie"
-        class="popup__arrow popup__arrow--right"
-      >
-        &#8250;
-      </button>
+      <div class="popup hidden">
+        <button aria-label="Zamknij" class="popup__close">&#10006;</button>
+        <img src="" alt="" class="popup__img" />
+        <button
+          aria-label="Poprzednie zdjęcie"
+          class="popup__arrow popup__arrow--left"
+        >
+          &#8249;
+        </button>
+        <button
+          aria-label="Następne zdjęcie"
+          class="popup__arrow popup__arrow--right"
+        >
+          &#8250;
+        </button>
+        </div>
     </div>
     <script src="script.js"></script>
   </body>
