@@ -67,3 +67,25 @@ popup.addEventListener("click", (e) => {
         closePopup();
     }
 });
+
+function createHeart() {
+  const serce = document.createElement('div');
+  serce.classList.add('serce');
+
+  serce.style.left = Math.random() * 100
+  + 'vw';
+
+  serce.style.animationDuration = Math.random() * 3 + 3 + 's';
+
+  serce.innerText = '💜';
+
+  document.body.appendChild(serce);
+
+
+  setTimeout(() => {
+      serce.remove
+  }, 5000)
+}
+
+
+setInterval(createHeart, 700);
